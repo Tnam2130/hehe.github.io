@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -49,56 +49,57 @@
         </script>
         <div class="box-vid">
             <video autoplay controls loop>
-                    <source src="/img/video.mp4" type="video/mp4">
-                    <source src="/img/video.ogg" type="video/ogg">
-            </video>
+                        <source src="/img/video.mp4" type="video/mp4">
+                        <source src="/img/video.ogg" type="video/ogg">
+                </video>
         </div>
-        <div class="app">
-            <div class="card mg-10" id="card1">
-                <div class="card__title">
-                    <div class="col_third" id="heart">
-                        <i class="fa fa-heart fa-8x"></i>
-                    </div>
-                    <div class="card__title--name">
-                        <h1> hê hê <br>Bhan có thể làm người yêu nam được hem :3 </h1>
-                    </div>
+    </div>
+    <div class="app">
+        <div class="card mg-10" id="card1">
+            <div class="card__title">
+                <div class="col_third" id="heart">
+                    <i class="fa fa-heart fa-8x"></i>
                 </div>
-                <div class="button__list mt-10">
-                    <div class="row">
-                        <div class="col col-lg-6 mt-10">
-                            <div class="button button__subscribe btnNo" onclick="showMess()">
-                                <span> Có </span>
-                            </div>
+                <div class="card__title--name">
+                    <h1> hê hê <br>Bhan có thể làm người yêu nam được hem :3 </h1>
+                </div>
+            </div>
+            <div class="button__list mt-10">
+                <div class="row">
+                    <div class="col col-lg-6 mt-10">
+                        <div class="button button__subscribe btnNo" onclick="showMess()">
+                            <span> Có </span>
                         </div>
-                        <div class="col col-lg-6 mt-10">
-                            <div class="button button__message btnNo" onclick="showMess()">
-                                <span> </span>
-                            </div>
+                    </div>
+                    <div class="col col-lg-6 mt-10">
+                        <div class="button button__message btnNo" onclick="showMess()">
+                            <span> </span>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="card mg-10" id="card2" style="display: none;">
-                <div class="card mg-10">
-                    <div style="height: 30px;"></div>
-                    <div class="card__title--name">
-                        <h1>
-                            <span style="color: red;">Yeahhhh!!!</span>
-                            <br> Nam yêu Bhan gất gất nhiều <br>
-                            <span> Cuối cùng cũng có người yêu :3 </span>
-                            <span>Nói thế chớ bhan muốn hay hông cũng được hihi</span>
-                        </h1>
-                    </div>
+        <div class="card mg-10" id="card2" style="display: none;">
+            <div class="card mg-10">
+                <div style="height: 30px;"></div>
+                <div class="card__title--name">
+                    <h1>
+                        <span style="color: red;">Yeahhhh!!!</span>
+                        <br> Nam yêu Bhan gất gất nhiều <br>
+                        <span> Cuối cùng cũng có người yêu :3 </span>
+                        <span>Nói thế chớ bhan muốn hay hông cũng được hihi</span>
+                    </h1>
                 </div>
             </div>
         </div>
-        <script>
-            function showMess() {
-                document.getElementById("card1").style.display = 'none';
-                document.getElementById("card2").style.display = "inline";
-            }
-        </script>
+    </div>
+    <script>
+        function showMess() {
+            document.getElementById("card1").style.display = 'none';
+            document.getElementById("card2").style.display = "inline";
+        }
+    </script>
 </body>
 
 </html>
